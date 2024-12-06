@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+img{
+    animation: beat 0.4s infinite;
+}
+@keyframes beat{
+    0%{
+        transform: scale(1);
+    }
+    25%{
+        transform: scale(1.5);
+    }
+    75%{
+        transform: scale(2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
